@@ -35,7 +35,7 @@ int main(void)
 
 
     // pythonのプログラムを呼び出し
-    system("cul_normal_vectors_for_c_process.py");
+    system("python3 cul_normal_vectors_for_c_process.py");
     system("rm data_1.txt");//cによって生成された座標データを削除
 
     double normal_vec[num][2];//これはグローバルで宣言をしておく．
